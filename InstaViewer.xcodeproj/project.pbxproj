@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8544420E1BB745E000BF1B31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8544420D1BB745E000BF1B31 /* main.m */; };
+		854442171BB745E000BF1B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854442151BB745E000BF1B31 /* Main.storyboard */; };
+		854442191BB745E000BF1B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854442181BB745E000BF1B31 /* Assets.xcassets */; };
+		8544421C1BB745E000BF1B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8544421A1BB745E000BF1B31 /* LaunchScreen.storyboard */; };
+		8544422A1BB7472900BF1B31 /* IVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 854442261BB7472900BF1B31 /* IVAppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		8544422D1BB747B800BF1B31 /* IVAuthorizeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8544422C1BB747B800BF1B31 /* IVAuthorizeController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		854442091BB745E000BF1B31 /* InstaViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8544420D1BB745E000BF1B31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		854442161BB745E000BF1B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		854442181BB745E000BF1B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8544421B1BB745E000BF1B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8544421D1BB745E000BF1B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854442251BB7472900BF1B31 /* IVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVAppDelegate.h; sourceTree = "<group>"; };
+		854442261BB7472900BF1B31 /* IVAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVAppDelegate.m; sourceTree = "<group>"; };
+		8544422B1BB747B800BF1B31 /* IVAuthorizeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVAuthorizeController.h; sourceTree = "<group>"; };
+		8544422C1BB747B800BF1B31 /* IVAuthorizeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVAuthorizeController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		854442061BB745E000BF1B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		854442001BB745E000BF1B31 = {
+			isa = PBXGroup;
+			children = (
+				8544420B1BB745E000BF1B31 /* InstaViewer */,
+				8544420A1BB745E000BF1B31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8544420A1BB745E000BF1B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				854442091BB745E000BF1B31 /* InstaViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8544420B1BB745E000BF1B31 /* InstaViewer */ = {
+			isa = PBXGroup;
+			children = (
+				854442151BB745E000BF1B31 /* Main.storyboard */,
+				854442181BB745E000BF1B31 /* Assets.xcassets */,
+				8544421A1BB745E000BF1B31 /* LaunchScreen.storyboard */,
+				8544421D1BB745E000BF1B31 /* Info.plist */,
+				8544420D1BB745E000BF1B31 /* main.m */,
+				854442231BB7472900BF1B31 /* Api */,
+				854442241BB7472900BF1B31 /* Common */,
+				854442271BB7472900BF1B31 /* Controllers */,
+				854442281BB7472900BF1B31 /* Models */,
+				854442291BB7472900BF1B31 /* Views */,
+			);
+			path = InstaViewer;
+			sourceTree = "<group>";
+		};
+		854442231BB7472900BF1B31 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		854442241BB7472900BF1B31 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				854442251BB7472900BF1B31 /* IVAppDelegate.h */,
+				854442261BB7472900BF1B31 /* IVAppDelegate.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		854442271BB7472900BF1B31 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8544422B1BB747B800BF1B31 /* IVAuthorizeController.h */,
+				8544422C1BB747B800BF1B31 /* IVAuthorizeController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		854442281BB7472900BF1B31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		854442291BB7472900BF1B31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		854442081BB745E000BF1B31 /* InstaViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854442201BB745E000BF1B31 /* Build configuration list for PBXNativeTarget "InstaViewer" */;
+			buildPhases = (
+				854442051BB745E000BF1B31 /* Sources */,
+				854442061BB745E000BF1B31 /* Frameworks */,
+				854442071BB745E000BF1B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaViewer;
+			productName = InstaViewer;
+			productReference = 854442091BB745E000BF1B31 /* InstaViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		854442011BB745E000BF1B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IV;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Hope;
+				TargetAttributes = {
+					854442081BB745E000BF1B31 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 854442041BB745E000BF1B31 /* Build configuration list for PBXProject "InstaViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 854442001BB745E000BF1B31;
+			productRefGroup = 8544420A1BB745E000BF1B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				854442081BB745E000BF1B31 /* InstaViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		854442071BB745E000BF1B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8544421C1BB745E000BF1B31 /* LaunchScreen.storyboard in Resources */,
+				854442191BB745E000BF1B31 /* Assets.xcassets in Resources */,
+				854442171BB745E000BF1B31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		854442051BB745E000BF1B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8544422D1BB747B800BF1B31 /* IVAuthorizeController.m in Sources */,
+				8544420E1BB745E000BF1B31 /* main.m in Sources */,
+				8544422A1BB7472900BF1B31 /* IVAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		854442151BB745E000BF1B31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				854442161BB745E000BF1B31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8544421A1BB745E000BF1B31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8544421B1BB745E000BF1B31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8544421E1BB745E000BF1B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8544421F1BB745E000BF1B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		854442211BB745E000BF1B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nd.InstaViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		854442221BB745E000BF1B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nd.InstaViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		854442041BB745E000BF1B31 /* Build configuration list for PBXProject "InstaViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8544421E1BB745E000BF1B31 /* Debug */,
+				8544421F1BB745E000BF1B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		854442201BB745E000BF1B31 /* Build configuration list for PBXNativeTarget "InstaViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854442211BB745E000BF1B31 /* Debug */,
+				854442221BB745E000BF1B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 854442011BB745E000BF1B31 /* Project object */;
+}
